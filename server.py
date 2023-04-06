@@ -24,13 +24,6 @@ def repeat(num, word):
     except:
         return "Please provide a number and a word"
 
-    # if isinstance(num, int) and isinstance(word, str):
-    #     for i in range(int(num)):
-    #         str += f"{word}\n"
-    #     return str
-    # else:
-    #     return "Please provide correct values"
-
     for i in range(num):
         str += f"{word}\n"
     return str
